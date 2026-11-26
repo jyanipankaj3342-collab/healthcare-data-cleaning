@@ -1,0 +1,601 @@
+PatientID,Age,Gender,Diagnosis,PrimaryMedication,ComorbidityCount,PriorAdmissions12M,LengthOfStayDays,DischargeDisposition,FollowUpBooked,Readmitted30Days
+SYN-PAT-00001,45,Male,Type 2 Diabetes,Metformin,1,5,14,Home,Yes,No
+SYN-PAT-00002,58,Non-Binary,Heart Failure,Furosemide,0,0,2,Home,Yes,No
+SYN-PAT-00003,54,Male,Hypertension,Amlodipine,5,3,1,Rehabilitation,Yes,No
+SYN-PAT-00004,75,Female,Type 2 Diabetes,Metformin,3,2,7,Home Care,Yes,No
+SYN-PAT-00005,19,Male,Asthma,Budesonide,3,1,1,Home Care,Yes,Yes
+SYN-PAT-00006,24,Non-Binary,Type 2 Diabetes,Metformin,1,5,6,Home Care,No,No
+SYN-PAT-00007,73,Female,COPD,Tiotropium,1,1,12,Home Care,No,Yes
+SYN-PAT-00008,64,Female,Type 2 Diabetes,Metformin,3,3,11,Home Care,No,No
+SYN-PAT-00009,77,Non-Binary,Hypertension,Amlodipine,0,2,11,Home,Yes,No
+SYN-PAT-00010,57,Female,Type 2 Diabetes,Metformin,5,0,9,Home,No,No
+SYN-PAT-00011,84,Male,Hypertension,Amlodipine,5,1,3,Home Care,Yes,No
+SYN-PAT-00012,22,Non-Binary,Type 2 Diabetes,Metformin,4,0,6,Rehabilitation,No,No
+SYN-PAT-00013,43,Male,Type 2 Diabetes,Metformin,0,1,18,Rehabilitation,Yes,No
+SYN-PAT-00014,59,Non-Binary,Hypertension,Amlodipine,2,5,15,Rehabilitation,Yes,No
+SYN-PAT-00015,51,Male,Hypertension,Amlodipine,0,3,2,Home,Yes,Yes
+SYN-PAT-00016,55,Male,Type 2 Diabetes,Metformin,1,2,9,Rehabilitation,Yes,No
+SYN-PAT-00017,63,Female,COPD,Tiotropium,0,1,2,Rehabilitation,Yes,No
+SYN-PAT-00018,59,Male,Type 2 Diabetes,Metformin,2,5,12,Home,Yes,No
+SYN-PAT-00019,23,Non-Binary,Hypertension,Amlodipine,5,5,3,Rehabilitation,Yes,Yes
+SYN-PAT-00020,74,Female,COPD,Tiotropium,1,2,18,Home,Yes,No
+SYN-PAT-00021,46,Female,COPD,Tiotropium,3,3,13,Home Care,Yes,Yes
+SYN-PAT-00022,23,Female,Asthma,Budesonide,1,4,5,Home,Yes,Yes
+SYN-PAT-00023,21,Female,Heart Failure,Furosemide,4,3,18,Rehabilitation,No,Yes
+SYN-PAT-00024,55,Male,Heart Failure,Furosemide,3,4,5,Rehabilitation,No,Yes
+SYN-PAT-00025,19,Male,Asthma,Budesonide,0,2,1,Home Care,No,No
+SYN-PAT-00026,75,Female,Asthma,Budesonide,5,0,8,Rehabilitation,No,Yes
+SYN-PAT-00027,32,Female,Asthma,Budesonide,2,2,5,Rehabilitation,No,No
+SYN-PAT-00028,41,Male,Asthma,Budesonide,4,0,15,Home,No,No
+SYN-PAT-00029,29,Non-Binary,Hypertension,Amlodipine,1,4,1,Home Care,Yes,No
+SYN-PAT-00030,24,Non-Binary,Type 2 Diabetes,Metformin,2,0,7,Home,Yes,No
+SYN-PAT-00031,52,Female,Asthma,Budesonide,4,1,8,Home,No,No
+SYN-PAT-00032,29,Non-Binary,Hypertension,Amlodipine,2,2,1,Home,Yes,No
+SYN-PAT-00033,49,Female,COPD,Tiotropium,3,4,1,Home,Yes,Yes
+SYN-PAT-00034,82,Non-Binary,Hypertension,Amlodipine,5,1,5,Home Care,Yes,No
+SYN-PAT-00035,38,Female,Asthma,Budesonide,5,2,12,Home,Yes,No
+SYN-PAT-00036,71,Non-Binary,Heart Failure,Furosemide,2,5,1,Home Care,Yes,No
+SYN-PAT-00037,80,Female,Hypertension,Amlodipine,3,1,11,Rehabilitation,Yes,No
+SYN-PAT-00038,34,Male,COPD,Tiotropium,0,4,2,Home,Yes,No
+SYN-PAT-00039,85,Female,Type 2 Diabetes,Metformin,4,5,16,Home Care,Yes,No
+SYN-PAT-00040,45,Male,Type 2 Diabetes,Metformin,4,5,13,Home Care,Yes,Yes
+SYN-PAT-00041,18,Male,Asthma,Budesonide,2,4,1,Home,No,Yes
+SYN-PAT-00042,29,Non-Binary,Asthma,Budesonide,1,4,10,Home Care,Yes,No
+SYN-PAT-00043,47,Non-Binary,Type 2 Diabetes,Metformin,4,0,12,Home Care,Yes,No
+SYN-PAT-00044,63,Female,Asthma,Budesonide,5,1,15,Home Care,Yes,No
+SYN-PAT-00045,51,Non-Binary,COPD,Tiotropium,1,1,15,Home,Yes,Yes
+SYN-PAT-00046,23,Female,Hypertension,Amlodipine,1,1,13,Home,Yes,No
+SYN-PAT-00047,47,Male,COPD,Tiotropium,2,5,2,Home Care,No,No
+SYN-PAT-00048,45,Male,Hypertension,Amlodipine,2,4,9,Rehabilitation,Yes,Yes
+SYN-PAT-00049,41,Female,Asthma,Budesonide,1,1,13,Home Care,No,No
+SYN-PAT-00050,18,Non-Binary,Hypertension,Amlodipine,2,3,13,Rehabilitation,No,No
+SYN-PAT-00051,31,Non-Binary,Heart Failure,Furosemide,5,0,12,Home,No,No
+SYN-PAT-00052,44,Male,COPD,Tiotropium,4,2,8,Home,Yes,No
+SYN-PAT-00053,32,Female,COPD,Tiotropium,5,0,5,Home,Yes,No
+SYN-PAT-00054,38,Male,COPD,Tiotropium,3,4,6,Home Care,Yes,No
+SYN-PAT-00055,20,Non-Binary,Type 2 Diabetes,Metformin,1,3,11,Home Care,Yes,No
+SYN-PAT-00056,28,Female,Hypertension,Amlodipine,3,3,15,Home,No,No
+SYN-PAT-00057,20,Male,COPD,Tiotropium,2,1,10,Home,Yes,Yes
+SYN-PAT-00058,33,Non-Binary,COPD,Tiotropium,5,2,16,Rehabilitation,Yes,Yes
+SYN-PAT-00059,82,Non-Binary,Heart Failure,Furosemide,1,5,14,Home Care,Yes,Yes
+SYN-PAT-00060,61,Female,COPD,Tiotropium,4,1,13,Home,Yes,Yes
+SYN-PAT-00061,50,Non-Binary,Asthma,Budesonide,4,4,7,Rehabilitation,Yes,Yes
+SYN-PAT-00062,49,Female,COPD,Tiotropium,1,4,17,Home Care,Yes,No
+SYN-PAT-00063,62,Male,Heart Failure,Furosemide,5,5,18,Home Care,Yes,Yes
+SYN-PAT-00064,24,Male,Heart Failure,Furosemide,0,2,8,Home,Yes,Yes
+SYN-PAT-00065,64,Male,COPD,Tiotropium,2,0,16,Home,Yes,Yes
+SYN-PAT-00066,28,Non-Binary,Heart Failure,Furosemide,1,1,3,Rehabilitation,No,No
+SYN-PAT-00067,52,Non-Binary,Hypertension,Amlodipine,5,5,4,Rehabilitation,Yes,No
+SYN-PAT-00068,60,Female,Type 2 Diabetes,Metformin,2,1,3,Home Care,Yes,No
+SYN-PAT-00069,81,Non-Binary,Type 2 Diabetes,Metformin,5,1,17,Home Care,Yes,No
+SYN-PAT-00070,70,Female,Asthma,Budesonide,0,1,16,Home Care,Yes,No
+SYN-PAT-00071,51,Non-Binary,Type 2 Diabetes,Metformin,0,4,15,Rehabilitation,Yes,No
+SYN-PAT-00072,70,Female,Type 2 Diabetes,Metformin,2,2,4,Home,Yes,Yes
+SYN-PAT-00073,53,Male,Hypertension,Amlodipine,1,4,1,Home,No,Yes
+SYN-PAT-00074,43,Male,Type 2 Diabetes,Metformin,2,2,15,Home Care,Yes,Yes
+SYN-PAT-00075,41,Male,COPD,Tiotropium,3,3,3,Home,Yes,Yes
+SYN-PAT-00076,73,Non-Binary,Heart Failure,Furosemide,4,0,15,Rehabilitation,Yes,No
+SYN-PAT-00077,51,Female,Heart Failure,Furosemide,5,0,4,Home Care,No,Yes
+SYN-PAT-00078,35,Male,Asthma,Budesonide,5,0,5,Home Care,Yes,No
+SYN-PAT-00079,28,Male,Heart Failure,Furosemide,3,1,1,Rehabilitation,Yes,No
+SYN-PAT-00080,75,Male,Asthma,Budesonide,0,4,8,Home,Yes,No
+SYN-PAT-00081,71,Non-Binary,Type 2 Diabetes,Metformin,1,1,15,Home Care,No,No
+SYN-PAT-00082,69,Male,COPD,Tiotropium,4,2,17,Rehabilitation,Yes,No
+SYN-PAT-00083,25,Male,COPD,Tiotropium,2,3,10,Rehabilitation,Yes,No
+SYN-PAT-00084,41,Female,Type 2 Diabetes,Metformin,3,3,1,Rehabilitation,Yes,No
+SYN-PAT-00085,74,Female,Hypertension,Amlodipine,3,4,9,Rehabilitation,No,No
+SYN-PAT-00086,25,Non-Binary,Heart Failure,Furosemide,3,1,6,Home,Yes,No
+SYN-PAT-00087,56,Male,Heart Failure,Furosemide,0,0,12,Home Care,Yes,No
+SYN-PAT-00088,75,Male,Type 2 Diabetes,Metformin,0,3,9,Home Care,Yes,No
+SYN-PAT-00089,52,Male,Type 2 Diabetes,Metformin,1,3,17,Home Care,No,No
+SYN-PAT-00090,72,Female,Hypertension,Amlodipine,1,5,11,Rehabilitation,Yes,Yes
+SYN-PAT-00091,39,Male,Asthma,Budesonide,4,2,11,Home Care,Yes,No
+SYN-PAT-00092,29,Male,Asthma,Budesonide,4,3,11,Home,Yes,Yes
+SYN-PAT-00093,78,Non-Binary,Type 2 Diabetes,Metformin,0,0,5,Home,Yes,No
+SYN-PAT-00094,68,Male,Asthma,Budesonide,5,5,10,Home Care,Yes,No
+SYN-PAT-00095,51,Non-Binary,Type 2 Diabetes,Metformin,1,3,11,Rehabilitation,Yes,No
+SYN-PAT-00096,22,Non-Binary,COPD,Tiotropium,4,3,13,Home,Yes,Yes
+SYN-PAT-00097,67,Male,Type 2 Diabetes,Metformin,2,3,2,Home Care,No,No
+SYN-PAT-00098,70,Male,Asthma,Budesonide,0,4,2,Home Care,Yes,Yes
+SYN-PAT-00099,42,Female,COPD,Tiotropium,3,0,16,Rehabilitation,No,No
+SYN-PAT-00100,85,Non-Binary,Hypertension,Amlodipine,1,5,3,Home,Yes,No
+SYN-PAT-00101,54,Non-Binary,Asthma,Budesonide,1,1,5,Home,Yes,No
+SYN-PAT-00102,52,Non-Binary,Heart Failure,Furosemide,1,5,7,Rehabilitation,Yes,Yes
+SYN-PAT-00103,48,Female,Heart Failure,Furosemide,0,5,5,Home,Yes,Yes
+SYN-PAT-00104,71,Non-Binary,Heart Failure,Furosemide,5,3,2,Home,No,Yes
+SYN-PAT-00105,87,Male,Hypertension,Amlodipine,5,3,13,Home Care,Yes,No
+SYN-PAT-00106,39,Female,COPD,Tiotropium,1,0,8,Home,Yes,No
+SYN-PAT-00107,71,Male,Asthma,Budesonide,5,2,12,Home Care,Yes,No
+SYN-PAT-00108,70,Female,Heart Failure,Furosemide,4,4,13,Rehabilitation,No,Yes
+SYN-PAT-00109,60,Female,Heart Failure,Furosemide,2,5,13,Home Care,Yes,No
+SYN-PAT-00110,22,Male,Type 2 Diabetes,Metformin,5,4,18,Home,Yes,Yes
+SYN-PAT-00111,35,Non-Binary,COPD,Tiotropium,3,1,3,Home Care,No,No
+SYN-PAT-00112,36,Female,Heart Failure,Furosemide,1,1,11,Home Care,Yes,No
+SYN-PAT-00113,76,Non-Binary,Asthma,Budesonide,1,2,4,Rehabilitation,No,Yes
+SYN-PAT-00114,25,Male,Heart Failure,Furosemide,4,4,5,Home Care,Yes,Yes
+SYN-PAT-00115,58,Male,Type 2 Diabetes,Metformin,3,2,4,Rehabilitation,Yes,No
+SYN-PAT-00116,24,Non-Binary,Asthma,Budesonide,1,0,14,Home,No,No
+SYN-PAT-00117,28,Non-Binary,Hypertension,Amlodipine,1,1,18,Home Care,Yes,No
+SYN-PAT-00118,82,Female,Heart Failure,Furosemide,2,5,8,Rehabilitation,Yes,Yes
+SYN-PAT-00119,54,Female,Asthma,Budesonide,2,2,5,Home,No,No
+SYN-PAT-00120,32,Non-Binary,Asthma,Budesonide,4,5,16,Home Care,Yes,Yes
+SYN-PAT-00121,86,Non-Binary,Asthma,Budesonide,4,0,14,Home,Yes,No
+SYN-PAT-00122,37,Male,Type 2 Diabetes,Metformin,0,2,13,Home Care,Yes,No
+SYN-PAT-00123,83,Non-Binary,COPD,Tiotropium,1,1,7,Rehabilitation,No,No
+SYN-PAT-00124,62,Female,Asthma,Budesonide,3,4,14,Rehabilitation,Yes,Yes
+SYN-PAT-00125,53,Male,Hypertension,Amlodipine,3,4,14,Home,No,No
+SYN-PAT-00126,60,Male,Hypertension,Amlodipine,0,2,2,Home,Yes,Yes
+SYN-PAT-00127,80,Female,Hypertension,Amlodipine,2,4,3,Rehabilitation,Yes,Yes
+SYN-PAT-00128,80,Male,Asthma,Budesonide,1,2,6,Home,No,No
+SYN-PAT-00129,53,Female,Hypertension,Amlodipine,1,4,5,Home,Yes,No
+SYN-PAT-00130,80,Female,Type 2 Diabetes,Metformin,4,2,11,Rehabilitation,Yes,Yes
+SYN-PAT-00131,62,Non-Binary,Asthma,Budesonide,2,3,13,Home,Yes,No
+SYN-PAT-00132,24,Female,COPD,Tiotropium,5,0,2,Rehabilitation,Yes,Yes
+SYN-PAT-00133,57,Female,Asthma,Budesonide,2,1,15,Rehabilitation,Yes,No
+SYN-PAT-00134,18,Female,COPD,Tiotropium,0,4,6,Home Care,Yes,No
+SYN-PAT-00135,24,Non-Binary,Hypertension,Amlodipine,5,0,18,Rehabilitation,Yes,No
+SYN-PAT-00136,74,Non-Binary,Hypertension,Amlodipine,3,4,3,Home,Yes,No
+SYN-PAT-00137,68,Non-Binary,Heart Failure,Furosemide,4,0,9,Rehabilitation,Yes,Yes
+SYN-PAT-00138,51,Male,Asthma,Budesonide,1,2,12,Home Care,No,No
+SYN-PAT-00139,31,Male,Hypertension,Amlodipine,1,3,6,Home,No,Yes
+SYN-PAT-00140,63,Female,Asthma,Budesonide,2,3,16,Rehabilitation,Yes,No
+SYN-PAT-00141,22,Non-Binary,Hypertension,Amlodipine,3,5,16,Home,Yes,Yes
+SYN-PAT-00142,57,Male,Heart Failure,Furosemide,0,2,15,Rehabilitation,Yes,No
+SYN-PAT-00143,30,Male,Hypertension,Amlodipine,1,4,14,Rehabilitation,Yes,Yes
+SYN-PAT-00144,70,Male,Asthma,Budesonide,0,4,18,Home,Yes,Yes
+SYN-PAT-00145,57,Female,Hypertension,Amlodipine,0,1,13,Home Care,Yes,No
+SYN-PAT-00146,48,Male,Asthma,Budesonide,1,0,16,Home,Yes,No
+SYN-PAT-00147,37,Non-Binary,Asthma,Budesonide,4,5,11,Rehabilitation,No,Yes
+SYN-PAT-00148,30,Non-Binary,Asthma,Budesonide,1,3,6,Rehabilitation,Yes,No
+SYN-PAT-00149,24,Male,Heart Failure,Furosemide,2,2,15,Home Care,Yes,No
+SYN-PAT-00150,30,Non-Binary,Heart Failure,Furosemide,0,3,13,Home Care,Yes,No
+SYN-PAT-00151,74,Female,Hypertension,Amlodipine,1,2,5,Home Care,No,No
+SYN-PAT-00152,45,Non-Binary,Asthma,Budesonide,4,2,17,Home,Yes,No
+SYN-PAT-00153,51,Non-Binary,Heart Failure,Furosemide,1,0,5,Home,No,No
+SYN-PAT-00154,57,Female,Type 2 Diabetes,Metformin,3,3,9,Rehabilitation,No,Yes
+SYN-PAT-00155,43,Male,Heart Failure,Furosemide,1,2,11,Home Care,Yes,No
+SYN-PAT-00156,80,Non-Binary,COPD,Tiotropium,3,4,8,Home Care,No,No
+SYN-PAT-00157,42,Male,Asthma,Budesonide,2,1,18,Home,Yes,No
+SYN-PAT-00158,84,Male,COPD,Tiotropium,1,1,13,Home Care,No,No
+SYN-PAT-00159,51,Non-Binary,COPD,Tiotropium,4,0,7,Rehabilitation,Yes,No
+SYN-PAT-00160,64,Female,Heart Failure,Furosemide,0,4,4,Home,No,Yes
+SYN-PAT-00161,56,Non-Binary,COPD,Tiotropium,4,1,6,Rehabilitation,No,No
+SYN-PAT-00162,47,Female,Heart Failure,Furosemide,3,3,10,Home,Yes,No
+SYN-PAT-00163,29,Female,Type 2 Diabetes,Metformin,1,5,1,Home Care,No,No
+SYN-PAT-00164,21,Male,Type 2 Diabetes,Metformin,3,3,18,Rehabilitation,Yes,No
+SYN-PAT-00165,51,Male,COPD,Tiotropium,4,2,1,Rehabilitation,Yes,No
+SYN-PAT-00166,73,Female,Type 2 Diabetes,Metformin,5,5,4,Home Care,Yes,No
+SYN-PAT-00167,76,Female,Heart Failure,Furosemide,0,1,5,Rehabilitation,Yes,No
+SYN-PAT-00168,21,Female,Asthma,Budesonide,4,2,14,Rehabilitation,No,No
+SYN-PAT-00169,65,Non-Binary,COPD,Tiotropium,1,0,7,Home Care,Yes,No
+SYN-PAT-00170,50,Female,Type 2 Diabetes,Metformin,3,1,14,Home Care,Yes,No
+SYN-PAT-00171,27,Male,Heart Failure,Furosemide,4,0,12,Rehabilitation,Yes,No
+SYN-PAT-00172,58,Female,Hypertension,Amlodipine,3,4,9,Home Care,No,No
+SYN-PAT-00173,63,Male,Heart Failure,Furosemide,3,0,14,Home Care,Yes,No
+SYN-PAT-00174,40,Male,Asthma,Budesonide,1,2,15,Home Care,Yes,No
+SYN-PAT-00175,76,Female,Hypertension,Amlodipine,5,4,2,Home,Yes,No
+SYN-PAT-00176,57,Female,Heart Failure,Furosemide,1,0,16,Home,Yes,No
+SYN-PAT-00177,81,Male,Heart Failure,Furosemide,4,0,2,Home,Yes,No
+SYN-PAT-00178,71,Non-Binary,Heart Failure,Furosemide,0,1,14,Rehabilitation,Yes,No
+SYN-PAT-00179,68,Male,Type 2 Diabetes,Metformin,0,3,10,Rehabilitation,Yes,No
+SYN-PAT-00180,30,Female,Asthma,Budesonide,0,5,6,Home,Yes,No
+SYN-PAT-00181,22,Female,Hypertension,Amlodipine,2,1,9,Rehabilitation,No,No
+SYN-PAT-00182,47,Non-Binary,Hypertension,Amlodipine,2,2,3,Home,Yes,No
+SYN-PAT-00183,27,Male,Hypertension,Amlodipine,0,3,3,Home Care,Yes,No
+SYN-PAT-00184,50,Male,Type 2 Diabetes,Metformin,1,4,17,Home,Yes,Yes
+SYN-PAT-00185,81,Female,Type 2 Diabetes,Metformin,1,3,11,Home,Yes,No
+SYN-PAT-00186,57,Male,Heart Failure,Furosemide,1,5,18,Home Care,Yes,No
+SYN-PAT-00187,44,Female,Heart Failure,Furosemide,0,5,18,Home,No,No
+SYN-PAT-00188,76,Female,Hypertension,Amlodipine,1,4,8,Home,Yes,Yes
+SYN-PAT-00189,83,Male,Type 2 Diabetes,Metformin,4,2,6,Home,Yes,No
+SYN-PAT-00190,58,Non-Binary,Heart Failure,Furosemide,4,2,2,Rehabilitation,No,No
+SYN-PAT-00191,20,Male,COPD,Tiotropium,1,1,10,Rehabilitation,Yes,No
+SYN-PAT-00192,58,Male,Hypertension,Amlodipine,2,4,16,Home,No,Yes
+SYN-PAT-00193,51,Male,Asthma,Budesonide,1,5,4,Home,Yes,Yes
+SYN-PAT-00194,62,Male,Hypertension,Amlodipine,5,0,8,Home,Yes,No
+SYN-PAT-00195,19,Male,Hypertension,Amlodipine,5,4,13,Home,Yes,Yes
+SYN-PAT-00196,39,Female,Asthma,Budesonide,5,1,7,Home,Yes,Yes
+SYN-PAT-00197,61,Non-Binary,Type 2 Diabetes,Metformin,5,5,6,Rehabilitation,Yes,No
+SYN-PAT-00198,28,Male,Heart Failure,Furosemide,2,1,1,Home Care,No,No
+SYN-PAT-00199,58,Male,Heart Failure,Furosemide,5,1,3,Home,Yes,No
+SYN-PAT-00200,58,Non-Binary,COPD,Tiotropium,1,2,15,Rehabilitation,Yes,No
+SYN-PAT-00201,64,Male,COPD,Tiotropium,3,0,8,Home,No,No
+SYN-PAT-00202,69,Female,Heart Failure,Furosemide,0,1,4,Home,No,No
+SYN-PAT-00203,35,Male,Hypertension,Amlodipine,2,3,2,Home Care,Yes,No
+SYN-PAT-00204,26,Male,Heart Failure,Furosemide,0,5,8,Rehabilitation,Yes,No
+SYN-PAT-00205,30,Female,Asthma,Budesonide,0,0,7,Rehabilitation,Yes,No
+SYN-PAT-00206,69,Non-Binary,Type 2 Diabetes,Metformin,2,3,4,Home,Yes,No
+SYN-PAT-00207,30,Female,Heart Failure,Furosemide,5,1,3,Home,No,No
+SYN-PAT-00208,86,Male,Hypertension,Amlodipine,1,4,9,Rehabilitation,Yes,No
+SYN-PAT-00209,49,Male,Asthma,Budesonide,2,2,10,Home Care,No,No
+SYN-PAT-00210,69,Non-Binary,Hypertension,Amlodipine,0,2,9,Home Care,Yes,No
+SYN-PAT-00211,20,Female,Asthma,Budesonide,4,5,16,Home Care,Yes,No
+SYN-PAT-00212,32,Male,Asthma,Budesonide,5,3,9,Home Care,No,No
+SYN-PAT-00213,55,Male,Heart Failure,Furosemide,3,1,8,Home,No,No
+SYN-PAT-00214,48,Non-Binary,Asthma,Budesonide,5,5,12,Home Care,Yes,Yes
+SYN-PAT-00215,59,Male,Type 2 Diabetes,Metformin,4,1,6,Rehabilitation,Yes,No
+SYN-PAT-00216,85,Non-Binary,COPD,Tiotropium,5,0,8,Rehabilitation,Yes,No
+SYN-PAT-00217,49,Male,Heart Failure,Furosemide,0,0,4,Rehabilitation,Yes,No
+SYN-PAT-00218,68,Male,COPD,Tiotropium,5,2,11,Rehabilitation,No,Yes
+SYN-PAT-00219,34,Male,Type 2 Diabetes,Metformin,3,2,3,Home,Yes,No
+SYN-PAT-00220,75,Female,COPD,Tiotropium,5,2,6,Rehabilitation,Yes,No
+SYN-PAT-00221,64,Female,COPD,Tiotropium,4,4,9,Rehabilitation,Yes,No
+SYN-PAT-00222,46,Non-Binary,Heart Failure,Furosemide,0,0,17,Home Care,Yes,No
+SYN-PAT-00223,84,Female,Heart Failure,Furosemide,2,5,5,Rehabilitation,No,Yes
+SYN-PAT-00224,20,Male,Hypertension,Amlodipine,5,4,14,Rehabilitation,No,Yes
+SYN-PAT-00225,27,Male,Hypertension,Amlodipine,4,3,16,Home,Yes,Yes
+SYN-PAT-00226,71,Female,Asthma,Budesonide,5,3,5,Rehabilitation,Yes,Yes
+SYN-PAT-00227,37,Male,Hypertension,Amlodipine,3,1,10,Rehabilitation,No,No
+SYN-PAT-00228,43,Female,Type 2 Diabetes,Metformin,4,2,9,Home Care,Yes,Yes
+SYN-PAT-00229,73,Female,Hypertension,Amlodipine,3,1,5,Home Care,Yes,No
+SYN-PAT-00230,18,Male,Heart Failure,Furosemide,0,0,10,Home,No,No
+SYN-PAT-00231,35,Female,Type 2 Diabetes,Metformin,5,2,7,Home,No,No
+SYN-PAT-00232,37,Non-Binary,Heart Failure,Furosemide,3,5,8,Home Care,Yes,No
+SYN-PAT-00233,68,Female,Hypertension,Amlodipine,3,5,7,Home,No,No
+SYN-PAT-00234,25,Male,Type 2 Diabetes,Metformin,5,4,11,Home Care,Yes,No
+SYN-PAT-00235,54,Male,Heart Failure,Furosemide,3,1,10,Rehabilitation,No,No
+SYN-PAT-00236,20,Male,Hypertension,Amlodipine,4,0,2,Rehabilitation,Yes,No
+SYN-PAT-00237,32,Female,Asthma,Budesonide,2,3,6,Home Care,Yes,No
+SYN-PAT-00238,47,Female,Hypertension,Amlodipine,0,4,9,Home,Yes,No
+SYN-PAT-00239,87,Female,Hypertension,Amlodipine,5,0,17,Home Care,Yes,Yes
+SYN-PAT-00240,64,Female,Type 2 Diabetes,Metformin,2,4,4,Home Care,No,No
+SYN-PAT-00241,66,Male,COPD,Tiotropium,3,1,4,Home,No,Yes
+SYN-PAT-00242,38,Male,COPD,Tiotropium,3,3,8,Home Care,Yes,Yes
+SYN-PAT-00243,70,Non-Binary,COPD,Tiotropium,4,5,14,Home,No,Yes
+SYN-PAT-00244,79,Female,Asthma,Budesonide,0,3,15,Home Care,Yes,No
+SYN-PAT-00245,86,Female,COPD,Tiotropium,1,0,6,Home,Yes,No
+SYN-PAT-00246,48,Female,COPD,Tiotropium,0,4,18,Rehabilitation,Yes,Yes
+SYN-PAT-00247,47,Male,COPD,Tiotropium,0,5,4,Home,No,Yes
+SYN-PAT-00248,31,Female,COPD,Tiotropium,5,3,1,Home Care,Yes,No
+SYN-PAT-00249,30,Non-Binary,Heart Failure,Furosemide,2,3,1,Rehabilitation,Yes,No
+SYN-PAT-00250,47,Non-Binary,COPD,Tiotropium,0,4,3,Home,Yes,No
+SYN-PAT-00251,77,Non-Binary,Hypertension,Amlodipine,1,2,11,Home Care,Yes,No
+SYN-PAT-00252,47,Female,Asthma,Budesonide,0,5,8,Home Care,Yes,Yes
+SYN-PAT-00253,29,Non-Binary,Heart Failure,Furosemide,1,2,6,Home Care,Yes,No
+SYN-PAT-00254,81,Male,Hypertension,Amlodipine,2,0,18,Home Care,Yes,No
+SYN-PAT-00255,54,Male,Hypertension,Amlodipine,5,5,17,Rehabilitation,Yes,No
+SYN-PAT-00256,57,Male,Heart Failure,Furosemide,3,3,13,Home Care,No,No
+SYN-PAT-00257,70,Non-Binary,Type 2 Diabetes,Metformin,1,0,12,Home Care,No,Yes
+SYN-PAT-00258,60,Female,COPD,Tiotropium,4,5,3,Home Care,Yes,Yes
+SYN-PAT-00259,52,Female,COPD,Tiotropium,0,1,17,Rehabilitation,Yes,No
+SYN-PAT-00260,58,Non-Binary,Type 2 Diabetes,Metformin,3,0,16,Home Care,Yes,No
+SYN-PAT-00261,74,Female,Type 2 Diabetes,Metformin,5,0,6,Home Care,Yes,No
+SYN-PAT-00262,68,Non-Binary,Type 2 Diabetes,Metformin,3,1,17,Home Care,Yes,No
+SYN-PAT-00263,31,Non-Binary,Hypertension,Amlodipine,4,5,12,Home Care,Yes,No
+SYN-PAT-00264,64,Female,Asthma,Budesonide,0,5,7,Home,Yes,Yes
+SYN-PAT-00265,21,Non-Binary,Type 2 Diabetes,Metformin,4,5,15,Rehabilitation,No,Yes
+SYN-PAT-00266,53,Male,Asthma,Budesonide,1,5,13,Rehabilitation,No,No
+SYN-PAT-00267,58,Female,COPD,Tiotropium,5,5,13,Home,No,Yes
+SYN-PAT-00268,61,Male,Type 2 Diabetes,Metformin,0,1,10,Home,Yes,Yes
+SYN-PAT-00269,74,Male,Heart Failure,Furosemide,5,5,15,Home,No,Yes
+SYN-PAT-00270,37,Male,COPD,Tiotropium,5,2,11,Rehabilitation,Yes,Yes
+SYN-PAT-00271,64,Female,Heart Failure,Furosemide,1,5,8,Rehabilitation,Yes,No
+SYN-PAT-00272,52,Female,Hypertension,Amlodipine,1,1,4,Rehabilitation,No,No
+SYN-PAT-00273,69,Female,Asthma,Budesonide,4,3,14,Home,Yes,No
+SYN-PAT-00274,81,Non-Binary,Heart Failure,Furosemide,3,1,8,Rehabilitation,No,No
+SYN-PAT-00275,82,Non-Binary,Heart Failure,Furosemide,5,2,2,Home Care,Yes,Yes
+SYN-PAT-00276,87,Female,Type 2 Diabetes,Metformin,3,0,3,Home,Yes,No
+SYN-PAT-00277,40,Female,Hypertension,Amlodipine,2,2,7,Rehabilitation,Yes,No
+SYN-PAT-00278,40,Male,COPD,Tiotropium,3,5,8,Rehabilitation,Yes,Yes
+SYN-PAT-00279,39,Male,Type 2 Diabetes,Metformin,3,2,13,Home,Yes,No
+SYN-PAT-00280,85,Female,COPD,Tiotropium,2,3,5,Home Care,Yes,No
+SYN-PAT-00281,62,Male,Asthma,Budesonide,4,0,4,Home,Yes,No
+SYN-PAT-00282,28,Non-Binary,COPD,Tiotropium,3,2,17,Home Care,No,No
+SYN-PAT-00283,32,Male,Hypertension,Amlodipine,2,3,10,Home Care,No,No
+SYN-PAT-00284,61,Non-Binary,Asthma,Budesonide,3,2,9,Home,No,No
+SYN-PAT-00285,30,Male,Asthma,Budesonide,1,0,15,Home,No,No
+SYN-PAT-00286,32,Male,Heart Failure,Furosemide,5,4,17,Home Care,Yes,Yes
+SYN-PAT-00287,25,Male,Heart Failure,Furosemide,5,4,7,Home,Yes,Yes
+SYN-PAT-00288,40,Non-Binary,Hypertension,Amlodipine,4,2,11,Rehabilitation,No,Yes
+SYN-PAT-00289,38,Male,Heart Failure,Furosemide,0,0,9,Home,No,Yes
+SYN-PAT-00290,31,Non-Binary,COPD,Tiotropium,5,1,18,Home,Yes,No
+SYN-PAT-00291,87,Female,Type 2 Diabetes,Metformin,1,4,15,Rehabilitation,Yes,Yes
+SYN-PAT-00292,56,Non-Binary,Hypertension,Amlodipine,0,4,3,Home Care,Yes,No
+SYN-PAT-00293,26,Male,Type 2 Diabetes,Metformin,1,2,1,Rehabilitation,Yes,No
+SYN-PAT-00294,48,Female,Type 2 Diabetes,Metformin,4,5,6,Rehabilitation,No,No
+SYN-PAT-00295,37,Non-Binary,Type 2 Diabetes,Metformin,5,3,14,Home Care,No,No
+SYN-PAT-00296,52,Non-Binary,Type 2 Diabetes,Metformin,5,3,11,Home,No,No
+SYN-PAT-00297,59,Female,Asthma,Budesonide,2,0,9,Home Care,Yes,No
+SYN-PAT-00298,21,Male,Asthma,Budesonide,5,3,6,Rehabilitation,Yes,Yes
+SYN-PAT-00299,88,Non-Binary,Asthma,Budesonide,1,4,4,Home Care,No,No
+SYN-PAT-00300,67,Female,Heart Failure,Furosemide,2,5,18,Home Care,Yes,Yes
+SYN-PAT-00301,19,Non-Binary,Type 2 Diabetes,Metformin,5,3,18,Rehabilitation,Yes,No
+SYN-PAT-00302,44,Female,Heart Failure,Furosemide,2,5,16,Rehabilitation,No,No
+SYN-PAT-00303,63,Male,Asthma,Budesonide,0,0,5,Home,Yes,No
+SYN-PAT-00304,34,Non-Binary,Heart Failure,Furosemide,4,0,12,Home Care,Yes,No
+SYN-PAT-00305,27,Female,Asthma,Budesonide,1,1,7,Rehabilitation,Yes,No
+SYN-PAT-00306,31,Non-Binary,Hypertension,Amlodipine,1,0,12,Home,No,No
+SYN-PAT-00307,76,Male,COPD,Tiotropium,0,5,16,Home,Yes,Yes
+SYN-PAT-00308,76,Female,Type 2 Diabetes,Metformin,5,4,10,Home Care,Yes,No
+SYN-PAT-00309,38,Non-Binary,Heart Failure,Furosemide,2,3,16,Rehabilitation,Yes,Yes
+SYN-PAT-00310,32,Female,Heart Failure,Furosemide,3,1,4,Home Care,Yes,No
+SYN-PAT-00311,28,Non-Binary,Hypertension,Amlodipine,5,1,12,Rehabilitation,Yes,No
+SYN-PAT-00312,76,Male,COPD,Tiotropium,3,4,1,Home Care,Yes,No
+SYN-PAT-00313,37,Female,COPD,Tiotropium,1,2,1,Home Care,No,Yes
+SYN-PAT-00314,26,Non-Binary,Hypertension,Amlodipine,1,5,6,Home,Yes,Yes
+SYN-PAT-00315,40,Non-Binary,Heart Failure,Furosemide,4,5,1,Home,No,No
+SYN-PAT-00316,56,Male,Heart Failure,Furosemide,5,1,18,Home Care,No,No
+SYN-PAT-00317,87,Female,COPD,Tiotropium,5,3,18,Rehabilitation,Yes,Yes
+SYN-PAT-00318,32,Female,Heart Failure,Furosemide,2,1,2,Home Care,Yes,No
+SYN-PAT-00319,32,Female,Hypertension,Amlodipine,4,5,16,Rehabilitation,No,Yes
+SYN-PAT-00320,59,Non-Binary,Hypertension,Amlodipine,0,0,14,Home,Yes,No
+SYN-PAT-00321,35,Non-Binary,COPD,Tiotropium,0,3,7,Home Care,Yes,Yes
+SYN-PAT-00322,31,Female,Asthma,Budesonide,0,0,17,Rehabilitation,No,No
+SYN-PAT-00323,29,Female,COPD,Tiotropium,1,4,2,Rehabilitation,Yes,No
+SYN-PAT-00324,32,Non-Binary,COPD,Tiotropium,2,2,2,Home,Yes,No
+SYN-PAT-00325,81,Male,Hypertension,Amlodipine,3,4,6,Rehabilitation,Yes,No
+SYN-PAT-00326,33,Female,Asthma,Budesonide,1,0,17,Home,Yes,No
+SYN-PAT-00327,43,Non-Binary,Heart Failure,Furosemide,2,3,6,Home Care,Yes,Yes
+SYN-PAT-00328,50,Non-Binary,Asthma,Budesonide,4,0,1,Home Care,Yes,No
+SYN-PAT-00329,78,Non-Binary,Asthma,Budesonide,2,5,10,Home,Yes,No
+SYN-PAT-00330,22,Female,Asthma,Budesonide,3,3,5,Home Care,Yes,No
+SYN-PAT-00331,25,Female,Type 2 Diabetes,Metformin,4,3,10,Home Care,No,No
+SYN-PAT-00332,23,Male,Hypertension,Amlodipine,1,1,3,Home,Yes,No
+SYN-PAT-00333,32,Male,Type 2 Diabetes,Metformin,1,3,10,Home Care,Yes,No
+SYN-PAT-00334,64,Male,Heart Failure,Furosemide,4,0,8,Home Care,Yes,No
+SYN-PAT-00335,67,Female,Type 2 Diabetes,Metformin,4,5,10,Home Care,Yes,No
+SYN-PAT-00336,49,Male,Asthma,Budesonide,0,5,9,Home,No,No
+SYN-PAT-00337,50,Female,Heart Failure,Furosemide,5,1,7,Home Care,Yes,No
+SYN-PAT-00338,26,Male,Hypertension,Amlodipine,4,5,18,Home,Yes,Yes
+SYN-PAT-00339,83,Male,COPD,Tiotropium,3,0,12,Home,No,Yes
+SYN-PAT-00340,70,Non-Binary,Hypertension,Amlodipine,2,3,18,Rehabilitation,Yes,No
+SYN-PAT-00341,41,Non-Binary,Hypertension,Amlodipine,0,4,10,Home,No,Yes
+SYN-PAT-00342,69,Female,Hypertension,Amlodipine,0,0,18,Rehabilitation,Yes,No
+SYN-PAT-00343,82,Female,Heart Failure,Furosemide,5,4,7,Home Care,Yes,No
+SYN-PAT-00344,64,Male,Type 2 Diabetes,Metformin,2,0,4,Rehabilitation,No,No
+SYN-PAT-00345,27,Non-Binary,Heart Failure,Furosemide,4,5,9,Rehabilitation,Yes,No
+SYN-PAT-00346,53,Male,Type 2 Diabetes,Metformin,3,3,12,Home Care,Yes,Yes
+SYN-PAT-00347,54,Non-Binary,Hypertension,Amlodipine,5,2,5,Rehabilitation,Yes,No
+SYN-PAT-00348,54,Male,Type 2 Diabetes,Metformin,2,1,14,Rehabilitation,Yes,No
+SYN-PAT-00349,24,Non-Binary,Hypertension,Amlodipine,3,4,16,Home,No,No
+SYN-PAT-00350,77,Female,Hypertension,Amlodipine,1,2,2,Rehabilitation,No,No
+SYN-PAT-00351,24,Male,COPD,Tiotropium,0,2,7,Home,Yes,No
+SYN-PAT-00352,59,Male,Heart Failure,Furosemide,0,4,2,Home,Yes,No
+SYN-PAT-00353,34,Female,Type 2 Diabetes,Metformin,3,4,8,Rehabilitation,No,No
+SYN-PAT-00354,81,Female,Hypertension,Amlodipine,2,3,6,Home Care,Yes,No
+SYN-PAT-00355,53,Female,COPD,Tiotropium,5,5,3,Home Care,No,Yes
+SYN-PAT-00356,37,Male,Type 2 Diabetes,Metformin,3,2,6,Home Care,Yes,No
+SYN-PAT-00357,24,Female,COPD,Tiotropium,0,4,14,Home Care,Yes,Yes
+SYN-PAT-00358,56,Female,Asthma,Budesonide,3,5,2,Rehabilitation,No,No
+SYN-PAT-00359,20,Female,Asthma,Budesonide,0,1,12,Home Care,No,No
+SYN-PAT-00360,30,Non-Binary,Heart Failure,Furosemide,2,1,17,Home,Yes,No
+SYN-PAT-00361,62,Non-Binary,Type 2 Diabetes,Metformin,0,4,17,Home Care,Yes,Yes
+SYN-PAT-00362,57,Female,Heart Failure,Furosemide,3,5,17,Rehabilitation,No,Yes
+SYN-PAT-00363,45,Male,Type 2 Diabetes,Metformin,1,5,2,Home,Yes,Yes
+SYN-PAT-00364,71,Non-Binary,Type 2 Diabetes,Metformin,0,4,16,Home Care,No,Yes
+SYN-PAT-00365,36,Non-Binary,Hypertension,Amlodipine,5,2,14,Home Care,Yes,Yes
+SYN-PAT-00366,66,Female,Hypertension,Amlodipine,3,3,4,Home Care,No,No
+SYN-PAT-00367,40,Non-Binary,Type 2 Diabetes,Metformin,2,0,15,Home Care,No,No
+SYN-PAT-00368,46,Non-Binary,Type 2 Diabetes,Metformin,4,5,1,Home Care,Yes,Yes
+SYN-PAT-00369,56,Female,COPD,Tiotropium,2,0,6,Rehabilitation,Yes,No
+SYN-PAT-00370,28,Non-Binary,Asthma,Budesonide,2,1,15,Rehabilitation,Yes,No
+SYN-PAT-00371,77,Non-Binary,Heart Failure,Furosemide,5,1,6,Rehabilitation,Yes,No
+SYN-PAT-00372,27,Female,Heart Failure,Furosemide,0,5,14,Home,Yes,Yes
+SYN-PAT-00373,28,Female,Hypertension,Amlodipine,2,4,11,Rehabilitation,Yes,Yes
+SYN-PAT-00374,26,Female,Asthma,Budesonide,1,5,1,Rehabilitation,Yes,No
+SYN-PAT-00375,42,Female,Asthma,Budesonide,4,0,5,Rehabilitation,Yes,No
+SYN-PAT-00376,64,Male,COPD,Tiotropium,2,0,18,Home,No,No
+SYN-PAT-00377,73,Female,COPD,Tiotropium,1,4,17,Home Care,Yes,Yes
+SYN-PAT-00378,87,Male,COPD,Tiotropium,4,3,8,Home,No,No
+SYN-PAT-00379,83,Male,COPD,Tiotropium,4,5,6,Home Care,Yes,No
+SYN-PAT-00380,34,Non-Binary,Hypertension,Amlodipine,0,4,15,Home Care,Yes,No
+SYN-PAT-00381,78,Non-Binary,Hypertension,Amlodipine,0,0,6,Home Care,Yes,No
+SYN-PAT-00382,46,Female,Hypertension,Amlodipine,3,4,18,Home,No,No
+SYN-PAT-00383,54,Non-Binary,COPD,Tiotropium,3,2,12,Home,No,Yes
+SYN-PAT-00384,42,Male,Heart Failure,Furosemide,3,5,9,Rehabilitation,Yes,Yes
+SYN-PAT-00385,33,Male,Type 2 Diabetes,Metformin,5,5,8,Home Care,Yes,No
+SYN-PAT-00386,20,Female,COPD,Tiotropium,1,0,1,Rehabilitation,No,No
+SYN-PAT-00387,49,Female,COPD,Tiotropium,3,2,2,Home Care,Yes,No
+SYN-PAT-00388,18,Male,Heart Failure,Furosemide,1,2,12,Home,Yes,Yes
+SYN-PAT-00389,39,Male,Heart Failure,Furosemide,1,3,2,Home Care,Yes,Yes
+SYN-PAT-00390,41,Male,COPD,Tiotropium,4,5,18,Home Care,Yes,Yes
+SYN-PAT-00391,64,Non-Binary,Type 2 Diabetes,Metformin,1,5,1,Rehabilitation,Yes,No
+SYN-PAT-00392,50,Female,Hypertension,Amlodipine,0,5,11,Home,Yes,No
+SYN-PAT-00393,37,Non-Binary,Heart Failure,Furosemide,0,1,12,Home,Yes,Yes
+SYN-PAT-00394,80,Female,Asthma,Budesonide,4,2,6,Home Care,Yes,No
+SYN-PAT-00395,66,Non-Binary,Asthma,Budesonide,2,2,7,Rehabilitation,Yes,No
+SYN-PAT-00396,64,Female,Type 2 Diabetes,Metformin,3,0,17,Home,Yes,Yes
+SYN-PAT-00397,33,Non-Binary,Asthma,Budesonide,2,0,9,Home Care,Yes,No
+SYN-PAT-00398,20,Female,COPD,Tiotropium,0,4,12,Home Care,No,Yes
+SYN-PAT-00399,41,Non-Binary,Asthma,Budesonide,3,2,1,Rehabilitation,Yes,No
+SYN-PAT-00400,54,Male,Type 2 Diabetes,Metformin,5,3,14,Home Care,No,No
+SYN-PAT-00401,60,Male,COPD,Tiotropium,3,4,10,Rehabilitation,Yes,Yes
+SYN-PAT-00402,28,Female,Type 2 Diabetes,Metformin,2,5,18,Rehabilitation,Yes,No
+SYN-PAT-00403,31,Non-Binary,Type 2 Diabetes,Metformin,5,2,5,Home Care,No,No
+SYN-PAT-00404,25,Non-Binary,COPD,Tiotropium,1,2,11,Home,No,No
+SYN-PAT-00405,56,Male,COPD,Tiotropium,1,0,2,Rehabilitation,Yes,No
+SYN-PAT-00406,81,Male,Asthma,Budesonide,1,1,8,Home Care,Yes,No
+SYN-PAT-00407,70,Non-Binary,Heart Failure,Furosemide,3,1,8,Home,No,Yes
+SYN-PAT-00408,54,Male,Type 2 Diabetes,Metformin,2,1,15,Home,Yes,No
+SYN-PAT-00409,66,Male,Asthma,Budesonide,4,3,17,Home,Yes,No
+SYN-PAT-00410,39,Male,Type 2 Diabetes,Metformin,5,1,4,Home Care,Yes,No
+SYN-PAT-00411,35,Female,Asthma,Budesonide,0,5,18,Home,Yes,No
+SYN-PAT-00412,37,Male,Hypertension,Amlodipine,0,4,8,Rehabilitation,Yes,Yes
+SYN-PAT-00413,25,Female,Hypertension,Amlodipine,3,2,16,Home,Yes,Yes
+SYN-PAT-00414,35,Non-Binary,Heart Failure,Furosemide,0,0,3,Home,Yes,Yes
+SYN-PAT-00415,42,Male,Hypertension,Amlodipine,2,0,2,Rehabilitation,Yes,No
+SYN-PAT-00416,19,Female,Type 2 Diabetes,Metformin,1,3,10,Rehabilitation,Yes,No
+SYN-PAT-00417,27,Non-Binary,Asthma,Budesonide,5,1,1,Home Care,No,No
+SYN-PAT-00418,62,Non-Binary,COPD,Tiotropium,2,4,2,Home Care,Yes,No
+SYN-PAT-00419,88,Female,Type 2 Diabetes,Metformin,3,3,2,Rehabilitation,Yes,No
+SYN-PAT-00420,84,Non-Binary,Heart Failure,Furosemide,1,4,2,Rehabilitation,Yes,No
+SYN-PAT-00421,24,Non-Binary,Asthma,Budesonide,1,0,11,Home Care,No,Yes
+SYN-PAT-00422,69,Female,COPD,Tiotropium,5,4,5,Rehabilitation,Yes,No
+SYN-PAT-00423,64,Non-Binary,Hypertension,Amlodipine,1,3,5,Rehabilitation,Yes,No
+SYN-PAT-00424,79,Female,Heart Failure,Furosemide,5,2,11,Home Care,Yes,No
+SYN-PAT-00425,59,Non-Binary,COPD,Tiotropium,2,0,8,Rehabilitation,Yes,No
+SYN-PAT-00426,57,Female,Type 2 Diabetes,Metformin,5,0,3,Rehabilitation,No,No
+SYN-PAT-00427,79,Non-Binary,Hypertension,Amlodipine,3,5,15,Home Care,Yes,Yes
+SYN-PAT-00428,20,Female,Hypertension,Amlodipine,5,5,9,Home,Yes,No
+SYN-PAT-00429,79,Male,Type 2 Diabetes,Metformin,1,3,13,Rehabilitation,No,No
+SYN-PAT-00430,26,Non-Binary,Asthma,Budesonide,4,1,6,Rehabilitation,No,No
+SYN-PAT-00431,27,Female,COPD,Tiotropium,2,1,16,Home Care,Yes,Yes
+SYN-PAT-00432,66,Non-Binary,Type 2 Diabetes,Metformin,2,1,6,Rehabilitation,Yes,No
+SYN-PAT-00433,78,Male,Heart Failure,Furosemide,1,0,5,Rehabilitation,Yes,No
+SYN-PAT-00434,64,Male,Asthma,Budesonide,1,4,6,Home,Yes,Yes
+SYN-PAT-00435,21,Non-Binary,Asthma,Budesonide,1,1,3,Rehabilitation,No,No
+SYN-PAT-00436,50,Male,Heart Failure,Furosemide,0,2,6,Rehabilitation,Yes,No
+SYN-PAT-00437,21,Non-Binary,Type 2 Diabetes,Metformin,1,0,16,Rehabilitation,No,No
+SYN-PAT-00438,24,Female,Type 2 Diabetes,Metformin,4,4,2,Rehabilitation,Yes,No
+SYN-PAT-00439,64,Non-Binary,Heart Failure,Furosemide,2,0,14,Home Care,Yes,No
+SYN-PAT-00440,22,Non-Binary,Hypertension,Amlodipine,2,1,11,Home Care,No,No
+SYN-PAT-00441,80,Male,Type 2 Diabetes,Metformin,3,4,3,Home,Yes,Yes
+SYN-PAT-00442,62,Non-Binary,Type 2 Diabetes,Metformin,0,1,12,Home Care,Yes,No
+SYN-PAT-00443,49,Female,COPD,Tiotropium,4,5,3,Rehabilitation,Yes,Yes
+SYN-PAT-00444,76,Female,COPD,Tiotropium,4,0,10,Home Care,Yes,No
+SYN-PAT-00445,66,Non-Binary,COPD,Tiotropium,3,2,16,Home Care,No,No
+SYN-PAT-00446,61,Female,Heart Failure,Furosemide,5,5,5,Home,Yes,No
+SYN-PAT-00447,69,Female,Heart Failure,Furosemide,4,5,16,Home Care,Yes,Yes
+SYN-PAT-00448,68,Female,Asthma,Budesonide,0,4,13,Home Care,Yes,No
+SYN-PAT-00449,54,Female,Hypertension,Amlodipine,0,2,16,Home Care,Yes,Yes
+SYN-PAT-00450,65,Non-Binary,Type 2 Diabetes,Metformin,2,1,8,Home Care,Yes,No
+SYN-PAT-00451,63,Non-Binary,Heart Failure,Furosemide,3,4,12,Rehabilitation,No,No
+SYN-PAT-00452,66,Non-Binary,Heart Failure,Furosemide,2,0,12,Home Care,Yes,No
+SYN-PAT-00453,87,Non-Binary,Asthma,Budesonide,4,3,15,Home Care,Yes,Yes
+SYN-PAT-00454,32,Female,Hypertension,Amlodipine,3,4,14,Home,Yes,No
+SYN-PAT-00455,45,Non-Binary,Asthma,Budesonide,0,3,1,Home,Yes,No
+SYN-PAT-00456,70,Non-Binary,Type 2 Diabetes,Metformin,3,1,14,Home Care,Yes,No
+SYN-PAT-00457,62,Female,Type 2 Diabetes,Metformin,4,5,14,Home,Yes,No
+SYN-PAT-00458,79,Female,Type 2 Diabetes,Metformin,4,5,18,Rehabilitation,Yes,Yes
+SYN-PAT-00459,25,Female,Hypertension,Amlodipine,5,0,4,Rehabilitation,Yes,No
+SYN-PAT-00460,77,Female,Asthma,Budesonide,3,0,18,Rehabilitation,Yes,No
+SYN-PAT-00461,84,Non-Binary,COPD,Tiotropium,2,5,7,Home Care,Yes,Yes
+SYN-PAT-00462,80,Non-Binary,Hypertension,Amlodipine,1,0,7,Home Care,Yes,No
+SYN-PAT-00463,28,Non-Binary,Asthma,Budesonide,5,1,13,Rehabilitation,Yes,No
+SYN-PAT-00464,83,Non-Binary,Heart Failure,Furosemide,4,3,9,Home,No,No
+SYN-PAT-00465,66,Female,Hypertension,Amlodipine,0,0,1,Home Care,Yes,No
+SYN-PAT-00466,54,Female,Heart Failure,Furosemide,3,1,1,Home Care,Yes,No
+SYN-PAT-00467,83,Female,Heart Failure,Furosemide,4,4,11,Home,Yes,Yes
+SYN-PAT-00468,69,Non-Binary,Type 2 Diabetes,Metformin,4,5,9,Rehabilitation,No,No
+SYN-PAT-00469,54,Non-Binary,Asthma,Budesonide,1,2,9,Home,Yes,Yes
+SYN-PAT-00470,86,Non-Binary,Type 2 Diabetes,Metformin,3,2,6,Home Care,Yes,No
+SYN-PAT-00471,37,Male,Hypertension,Amlodipine,3,4,7,Rehabilitation,No,No
+SYN-PAT-00472,67,Male,COPD,Tiotropium,5,5,15,Rehabilitation,No,Yes
+SYN-PAT-00473,25,Male,COPD,Tiotropium,0,5,7,Home Care,No,No
+SYN-PAT-00474,34,Male,Asthma,Budesonide,4,2,9,Rehabilitation,Yes,No
+SYN-PAT-00475,30,Male,Hypertension,Amlodipine,3,1,17,Home,No,No
+SYN-PAT-00476,57,Male,Hypertension,Amlodipine,5,5,13,Home,Yes,Yes
+SYN-PAT-00477,29,Male,Type 2 Diabetes,Metformin,5,2,17,Home,Yes,No
+SYN-PAT-00478,35,Female,Asthma,Budesonide,3,5,10,Home,Yes,Yes
+SYN-PAT-00479,30,Non-Binary,Asthma,Budesonide,1,3,18,Home Care,Yes,No
+SYN-PAT-00480,47,Non-Binary,COPD,Tiotropium,0,4,18,Home,Yes,Yes
+SYN-PAT-00481,35,Male,Heart Failure,Furosemide,0,3,13,Home,Yes,No
+SYN-PAT-00482,88,Male,Hypertension,Amlodipine,0,2,11,Home Care,Yes,No
+SYN-PAT-00483,36,Male,Asthma,Budesonide,1,1,7,Home Care,No,No
+SYN-PAT-00484,56,Female,Asthma,Budesonide,3,4,5,Rehabilitation,Yes,No
+SYN-PAT-00485,44,Female,Type 2 Diabetes,Metformin,5,5,5,Home Care,Yes,No
+SYN-PAT-00486,24,Male,Asthma,Budesonide,5,3,18,Rehabilitation,Yes,No
+SYN-PAT-00487,80,Female,COPD,Tiotropium,3,5,16,Home,Yes,No
+SYN-PAT-00488,84,Non-Binary,Type 2 Diabetes,Metformin,1,0,12,Rehabilitation,Yes,No
+SYN-PAT-00489,73,Male,Type 2 Diabetes,Metformin,4,0,12,Rehabilitation,No,No
+SYN-PAT-00490,37,Male,Hypertension,Amlodipine,3,4,13,Home Care,Yes,Yes
+SYN-PAT-00491,60,Female,Asthma,Budesonide,0,3,18,Home,Yes,Yes
+SYN-PAT-00492,66,Female,COPD,Tiotropium,5,1,15,Home,Yes,No
+SYN-PAT-00493,34,Male,Hypertension,Amlodipine,1,0,13,Rehabilitation,No,No
+SYN-PAT-00494,29,Male,Type 2 Diabetes,Metformin,1,4,16,Home,Yes,Yes
+SYN-PAT-00495,75,Female,Asthma,Budesonide,3,3,14,Home Care,No,Yes
+SYN-PAT-00496,59,Female,Hypertension,Amlodipine,4,2,7,Home Care,Yes,No
+SYN-PAT-00497,19,Male,COPD,Tiotropium,3,5,12,Home Care,No,Yes
+SYN-PAT-00498,30,Non-Binary,Hypertension,Amlodipine,0,0,2,Home Care,No,No
+SYN-PAT-00499,46,Non-Binary,Heart Failure,Furosemide,3,1,9,Home Care,No,No
+SYN-PAT-00500,86,Non-Binary,Hypertension,Amlodipine,4,0,4,Home,Yes,No
+SYN-PAT-00501,61,Non-Binary,Asthma,Budesonide,2,0,3,Rehabilitation,Yes,No
+SYN-PAT-00502,30,Male,Heart Failure,Furosemide,0,4,18,Rehabilitation,Yes,No
+SYN-PAT-00503,62,Male,Asthma,Budesonide,0,0,13,Home,Yes,Yes
+SYN-PAT-00504,52,Male,COPD,Tiotropium,1,4,14,Home,No,No
+SYN-PAT-00505,59,Male,COPD,Tiotropium,1,2,5,Home,Yes,No
+SYN-PAT-00506,54,Female,Type 2 Diabetes,Metformin,3,5,11,Home,No,Yes
+SYN-PAT-00507,43,Male,Type 2 Diabetes,Metformin,1,0,2,Home Care,Yes,No
+SYN-PAT-00508,21,Male,COPD,Tiotropium,0,1,4,Home,Yes,No
+SYN-PAT-00509,51,Non-Binary,Asthma,Budesonide,4,4,3,Home,No,No
+SYN-PAT-00510,54,Male,Asthma,Budesonide,2,2,9,Rehabilitation,No,No
+SYN-PAT-00511,61,Non-Binary,Type 2 Diabetes,Metformin,1,4,16,Home,Yes,No
+SYN-PAT-00512,26,Non-Binary,Hypertension,Amlodipine,0,5,12,Home,Yes,Yes
+SYN-PAT-00513,22,Female,Type 2 Diabetes,Metformin,5,5,7,Home,Yes,No
+SYN-PAT-00514,64,Female,Asthma,Budesonide,2,4,14,Rehabilitation,No,Yes
+SYN-PAT-00515,49,Non-Binary,Type 2 Diabetes,Metformin,2,4,13,Rehabilitation,Yes,No
+SYN-PAT-00516,57,Female,Hypertension,Amlodipine,5,4,3,Rehabilitation,Yes,No
+SYN-PAT-00517,37,Female,Asthma,Budesonide,4,2,13,Home,Yes,No
+SYN-PAT-00518,33,Female,Heart Failure,Furosemide,3,4,5,Home Care,Yes,No
+SYN-PAT-00519,67,Non-Binary,Heart Failure,Furosemide,4,0,6,Home,Yes,No
+SYN-PAT-00520,79,Non-Binary,Heart Failure,Furosemide,3,3,11,Home,Yes,Yes
+SYN-PAT-00521,61,Female,Type 2 Diabetes,Metformin,3,1,15,Rehabilitation,Yes,No
+SYN-PAT-00522,30,Non-Binary,Hypertension,Amlodipine,0,0,13,Home Care,Yes,No
+SYN-PAT-00523,62,Non-Binary,Heart Failure,Furosemide,1,0,16,Home,Yes,Yes
+SYN-PAT-00524,65,Male,Asthma,Budesonide,3,3,10,Home,Yes,No
+SYN-PAT-00525,83,Female,Type 2 Diabetes,Metformin,2,3,10,Rehabilitation,Yes,No
+SYN-PAT-00526,47,Male,Heart Failure,Furosemide,1,0,9,Rehabilitation,Yes,No
+SYN-PAT-00527,71,Male,COPD,Tiotropium,3,1,3,Home Care,Yes,Yes
+SYN-PAT-00528,49,Non-Binary,Type 2 Diabetes,Metformin,5,4,9,Home Care,Yes,No
+SYN-PAT-00529,48,Female,Heart Failure,Furosemide,1,5,13,Home,No,Yes
+SYN-PAT-00530,50,Female,COPD,Tiotropium,3,1,13,Home,Yes,No
+SYN-PAT-00531,47,Male,Hypertension,Amlodipine,5,3,2,Home,No,Yes
+SYN-PAT-00532,25,Female,Asthma,Budesonide,2,0,10,Rehabilitation,Yes,No
+SYN-PAT-00533,46,Female,COPD,Tiotropium,4,3,12,Home Care,Yes,No
+SYN-PAT-00534,49,Non-Binary,Heart Failure,Furosemide,4,1,5,Rehabilitation,Yes,No
+SYN-PAT-00535,51,Female,Asthma,Budesonide,3,4,12,Home Care,No,Yes
+SYN-PAT-00536,41,Male,Hypertension,Amlodipine,1,2,10,Home Care,Yes,No
+SYN-PAT-00537,73,Non-Binary,Hypertension,Amlodipine,4,0,18,Home Care,Yes,No
+SYN-PAT-00538,49,Male,Heart Failure,Furosemide,1,4,15,Home Care,Yes,Yes
+SYN-PAT-00539,22,Female,Hypertension,Amlodipine,2,2,1,Home,Yes,No
+SYN-PAT-00540,61,Male,COPD,Tiotropium,1,0,9,Home Care,Yes,No
+SYN-PAT-00541,29,Female,Asthma,Budesonide,1,5,9,Home Care,Yes,No
+SYN-PAT-00542,31,Female,Heart Failure,Furosemide,3,0,2,Rehabilitation,Yes,No
+SYN-PAT-00543,83,Non-Binary,COPD,Tiotropium,4,0,3,Rehabilitation,Yes,No
+SYN-PAT-00544,41,Non-Binary,COPD,Tiotropium,1,5,16,Home Care,No,No
+SYN-PAT-00545,49,Male,Heart Failure,Furosemide,0,1,15,Home,Yes,No
+SYN-PAT-00546,61,Female,Hypertension,Amlodipine,2,4,8,Home,Yes,No
+SYN-PAT-00547,20,Female,Heart Failure,Furosemide,1,3,14,Home,Yes,No
+SYN-PAT-00548,19,Male,Type 2 Diabetes,Metformin,1,5,14,Home,Yes,No
+SYN-PAT-00549,23,Non-Binary,Type 2 Diabetes,Metformin,2,0,4,Rehabilitation,Yes,No
+SYN-PAT-00550,50,Male,Heart Failure,Furosemide,2,3,14,Home Care,Yes,Yes
+SYN-PAT-00551,45,Male,COPD,Tiotropium,1,0,2,Home,No,No
+SYN-PAT-00552,74,Female,Type 2 Diabetes,Metformin,2,2,8,Home,Yes,No
+SYN-PAT-00553,84,Female,Type 2 Diabetes,Metformin,5,2,3,Rehabilitation,Yes,No
+SYN-PAT-00554,24,Female,COPD,Tiotropium,1,1,10,Rehabilitation,Yes,No
+SYN-PAT-00555,55,Male,Asthma,Budesonide,3,5,10,Home,No,Yes
+SYN-PAT-00556,30,Non-Binary,Type 2 Diabetes,Metformin,1,4,13,Home Care,No,No
+SYN-PAT-00557,26,Female,Asthma,Budesonide,0,1,14,Rehabilitation,Yes,Yes
+SYN-PAT-00558,21,Male,Hypertension,Amlodipine,4,5,14,Rehabilitation,Yes,No
+SYN-PAT-00559,73,Female,Type 2 Diabetes,Metformin,0,3,9,Home Care,Yes,No
+SYN-PAT-00560,55,Female,Hypertension,Amlodipine,1,2,17,Rehabilitation,Yes,No
+SYN-PAT-00561,23,Male,Hypertension,Amlodipine,3,0,4,Home Care,Yes,No
+SYN-PAT-00562,28,Non-Binary,Type 2 Diabetes,Metformin,3,2,3,Home,Yes,Yes
+SYN-PAT-00563,56,Non-Binary,Asthma,Budesonide,2,1,1,Home Care,Yes,No
+SYN-PAT-00564,76,Male,Hypertension,Amlodipine,4,3,1,Home Care,No,No
+SYN-PAT-00565,34,Male,Type 2 Diabetes,Metformin,3,2,3,Home Care,Yes,No
+SYN-PAT-00566,74,Non-Binary,Heart Failure,Furosemide,2,3,8,Rehabilitation,No,Yes
+SYN-PAT-00567,45,Non-Binary,Type 2 Diabetes,Metformin,0,5,13,Home,Yes,No
+SYN-PAT-00568,37,Male,Hypertension,Amlodipine,4,3,7,Home Care,Yes,No
+SYN-PAT-00569,54,Male,COPD,Tiotropium,1,2,11,Home Care,Yes,Yes
+SYN-PAT-00570,35,Male,COPD,Tiotropium,3,0,11,Home,Yes,No
+SYN-PAT-00571,35,Male,COPD,Tiotropium,4,4,1,Home Care,Yes,Yes
+SYN-PAT-00572,77,Male,Type 2 Diabetes,Metformin,1,1,9,Home Care,Yes,No
+SYN-PAT-00573,70,Non-Binary,Heart Failure,Furosemide,3,5,6,Home Care,No,Yes
+SYN-PAT-00574,54,Male,Heart Failure,Furosemide,0,1,16,Home,Yes,Yes
+SYN-PAT-00575,39,Female,Type 2 Diabetes,Metformin,0,4,10,Rehabilitation,Yes,No
+SYN-PAT-00576,39,Male,Hypertension,Amlodipine,5,0,12,Home Care,Yes,Yes
+SYN-PAT-00577,63,Female,Hypertension,Amlodipine,3,4,2,Rehabilitation,Yes,No
+SYN-PAT-00578,44,Non-Binary,Hypertension,Amlodipine,4,3,11,Rehabilitation,Yes,No
+SYN-PAT-00579,88,Male,Asthma,Budesonide,2,5,4,Home Care,Yes,Yes
+SYN-PAT-00580,29,Male,Type 2 Diabetes,Metformin,5,2,5,Home,Yes,No
+SYN-PAT-00581,82,Female,Type 2 Diabetes,Metformin,5,2,2,Rehabilitation,Yes,No
+SYN-PAT-00582,61,Non-Binary,Heart Failure,Furosemide,4,5,13,Home Care,Yes,Yes
+SYN-PAT-00583,84,Male,Type 2 Diabetes,Metformin,2,3,17,Rehabilitation,No,Yes
+SYN-PAT-00584,28,Non-Binary,Hypertension,Amlodipine,5,4,4,Rehabilitation,Yes,No
+SYN-PAT-00585,82,Non-Binary,Heart Failure,Furosemide,2,0,8,Home Care,No,No
+SYN-PAT-00586,36,Male,Asthma,Budesonide,4,3,18,Home Care,Yes,No
+SYN-PAT-00587,51,Female,Asthma,Budesonide,0,2,17,Home Care,Yes,No
+SYN-PAT-00588,78,Male,Heart Failure,Furosemide,5,5,4,Home Care,Yes,No
+SYN-PAT-00589,81,Female,COPD,Tiotropium,0,2,18,Rehabilitation,No,Yes
+SYN-PAT-00590,67,Female,Type 2 Diabetes,Metformin,3,0,1,Rehabilitation,Yes,No
+SYN-PAT-00591,35,Female,Type 2 Diabetes,Metformin,3,4,10,Home,No,No
+SYN-PAT-00592,29,Male,Asthma,Budesonide,0,5,9,Home Care,Yes,No
+SYN-PAT-00593,80,Female,Heart Failure,Furosemide,3,4,14,Home Care,No,Yes
+SYN-PAT-00594,69,Non-Binary,Hypertension,Amlodipine,1,0,10,Home Care,Yes,No
+SYN-PAT-00595,78,Female,Asthma,Budesonide,0,1,18,Home Care,No,No
+SYN-PAT-00596,18,Non-Binary,Type 2 Diabetes,Metformin,1,4,2,Home Care,No,No
+SYN-PAT-00597,24,Male,COPD,Tiotropium,4,4,7,Home Care,Yes,No
+SYN-PAT-00598,64,Male,Hypertension,Amlodipine,4,4,13,Rehabilitation,Yes,No
+SYN-PAT-00599,65,Female,Type 2 Diabetes,Metformin,5,3,2,Rehabilitation,Yes,No
+SYN-PAT-00600,40,Non-Binary,Heart Failure,Furosemide,2,0,16,Home Care,Yes,No
